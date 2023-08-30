@@ -2,17 +2,12 @@
 
 
 :root {
-    --blue: 182, 77%, 65%;    
+    --blue: 182, 77%, 65%;
+    --light-blue: 199, 100%, 95%;    
+    --bronze: 31, 100%, 70%;
+    --light-bronze: 0, 0%, 100%;
+    
 }
-
-h2 {
-    font-size: 1.2rem;
-}
-
-ul {
-    list-style: none;
-}
-
 
 * {
     margin: 0;
@@ -24,25 +19,37 @@ ul {
 
 body {
     display: flex;
-    min-height: 100vh;    
-    margin: 10px;
-    font-family: 'Lato', sans-serif;    
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+ul {
+    list-style: none;
 }
 
 img {
     border-radius: 50%;
 }
 
+.pic-wrapper {
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
 .intro {
-    width: 50%;
+    display: flex;
 }
 
-.intro-section {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: hsl(var(--blue));    
+.skills {
+    background-image: linear-gradient(4deg, hsl(var(--blue)), hsl(var(--light-blue)));
 }
 
-.skill-section {
-    display: flex;
+.hobbies {
+    background-image: linear-gradient(2deg, hsl(var(--bronze)), hsl(var(--light-bronze)));
+}
+
+.row {
+    padding-bottom: 1.5rem;
 }
