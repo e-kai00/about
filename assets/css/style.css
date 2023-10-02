@@ -36,13 +36,9 @@ ul {
     list-style: none;
 }
 
+/* -------------------------------- Intro */
 .profile-img {
     border-radius: 50%;
-}
-
-.portfolio-img {
-    width: 200px;
-    border: 1px solid #ddd;
 }
 
 .pic-wrapper {
@@ -54,6 +50,65 @@ ul {
     display: flex;
 }
 
+
+/* -------------------------------- Portfolio */
+.portfolio-img {
+    width: 300px;
+    border: 1px solid #ddd;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-gap: 1em;
+    align-self: center;
+    justify-items: center;
+}
+
+figure img {
+    transition: filter 0.3s;
+}
+
+figure img:hover {
+    filter: brightness(30%);
+}
+
+.project-title {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    z-index: 1;
+    display: inline-block;
+}
+
+.project-title::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 1.4rem);
+    background: hsl(var(--bronze));
+    top: -.8rem;
+    bottom: -.8rem;
+    left: -.7rem;
+    z-index: -1;
+
+    transform: scaleX(.075);
+    transform-origin: left;
+    transition: transform 350ms ease-in
+}
+
+figure:hover .project-title::after {
+    transform: scaleX(1);
+}
+
+figcaption a {
+    margin: 12px 5px 5px;
+} 
+
+.container-badges li {
+    display: inline;
+    margin: 5px;    
+}
+/* -------------------------------- Skills */
 .skills {
     background-image: linear-gradient(4deg, hsl(var(--blue)), hsl(var(--light-blue)));
 }
