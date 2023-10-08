@@ -5,13 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Katerina</title>
 </head>
 
 <body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- mobile navbar -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+
     <main>
         <div class="row intro">
             <!-- intro -->
@@ -33,10 +57,10 @@
         <br>
 
         <section id="portfolio">
-            <!-- projects-->            
+            <!-- projects-->
             <h2 class="center-align">Projects</h2>
             <p class="center-align">Short text to introduce</p>
-                        
+
         </section>
         <br>
 
@@ -52,28 +76,55 @@
                 <p>Other : Agile development</p>
 
                 <h3>Programming Languages</h3>
-                <img src="https://img.shields.io/badge/HTML-%23333333?logo=html5&logoColor=%23ffffff&labelColor=%23E34F26">
+                <img
+                    src="https://img.shields.io/badge/HTML-%23333333?logo=html5&logoColor=%23ffffff&labelColor=%23E34F26">
                 <img src="https://img.shields.io/badge/JavaScript-%23000000?logo=javascript">
 
             </div>
         </div>
         <br>
-        <div class="row hobbies">
+        <div class="hobbies">
             <!-- about: education, hobbies, library and useful resourses -->
-            <div class="col s12">
-                <h2>Interest and Hobbies</h2>
+            <!-- <div class="col s12"> -->
+            <h2 class="center-align">Interest and Hobbies</h2>
 
-            </div>
+            <div id="img-gallery"></div>
+            <!-- </div> -->
         </div>
     </main>
 
-    <footer>
+    <footer class="page-footer">
         <!-- email -->
         <!-- social media: github and linkedin -->
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Email</h5>
+                    <p class="grey-text text-lighten-4">yelkaterina@gmail.com</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul class="social-links">
+                        <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2014 Copyright Text
+            </div>
+        </div>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://kit.fontawesome.com/624b5d3773.js" crossorigin="anonymous"></script>
-    <script src="assets/js/portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>

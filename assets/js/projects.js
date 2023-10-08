@@ -38,7 +38,7 @@ const badges = {
 }
 
 
-// map each project to own <li> item
+// map each project to its own <li> item
 let li_project = "";
 
 projects.map((project) => {
