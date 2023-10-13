@@ -70,23 +70,34 @@ nav ul a {
 .portfolio-img {
     width: 300px;
     border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-gap: 1em;
-    align-self: center;
+    align-items: end;
     justify-items: center;
+}
+
+.project-link {
+    background-color: hsl(var(--bronze));
+    color: #262626;
+}
+
+.project-link:hover {
+    background-color: hsla(var(--bronze), 0.85);    
 }
 
 figure img {
     transition: filter 0.3s;
 }
 
-figure img:hover {
+figure:hover img {
     filter: brightness(30%);
 }
+
 
 .project-title {
     position: relative;
@@ -94,6 +105,12 @@ figure img:hover {
     left: 10px;
     z-index: 1;
     display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+figure:hover .project-title {
+    opacity: 1;
 }
 
 .project-title::after {
@@ -180,7 +197,7 @@ figcaption a {
 .library-container::-webkit-scrollbar-thumb {
     background: hsl(var(--sea-blue));
     border-radius: 100vw;
-    border: .1em solid #fff;
+    /* border: .1em solid #fff; */
 
 }
 
