@@ -11,8 +11,14 @@ function initMaterialize() {
 
 // fancybox
 function initFancybox() {
-    Fancybox.bind("[data-fancybox]", {
-        // Your custom options
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        Toolbar: {
+            display: {
+              left: ['close'],
+              middle: [],
+              right: [],
+            },
+          },
       });
 }
 

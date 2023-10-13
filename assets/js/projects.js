@@ -5,14 +5,14 @@ let projects = [
         image: "online-shop",
         repo: "https://github.com/e-kai00/gungnir-shop",
         website: "https://gungnir-shop-d9723ee6b3ec.herokuapp.com/",
-        tools: ["HTML", "CSS", "Bootstrap", "jQuery", "Python", "Django", "ElephantSQL", "Heroku", "Stripe API", "AWS"]
+        tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "Python", "Django", "ElephantSQL", "Heroku", "Stripe API", "AWS"]
     },
     {
         title: "Expense Tracker",
         image: "expense-tracker",
         repo: "https://github.com/e-kai00/expense-tracker",
         website: "https://kai00-expense-tracker.herokuapp.com/accounts/login/?next=/",
-        tools: ["HTML", "CSS", "Materialize", "jQuery", "Python", "Django", "postgresql"]
+        tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql"]
     },
     {
         title: "Python Project",
