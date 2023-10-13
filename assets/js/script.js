@@ -16,8 +16,19 @@ function initFancybox() {
       });
 }
 
+// current year for Copyright
+function getYear() {
+    let year = document.getElementById('year');
+    let currentYear = new Date().getFullYear();
+    if (currentYear === 2023) {
+        year.innerHTML = currentYear
+    } else {
+        year.innerHTML = `2023 - ${currentYear}`;
+    }
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
     initFancybox()
+    getYear()
 })

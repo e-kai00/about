@@ -18,11 +18,13 @@
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="collapsible.html">Skills</a></li>
+                    <li><a href="sass.html">About</a></li>
+                    <li><a href="collapsible.html">Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,7 +39,7 @@
     </ul>
 
     <main>
-        <div class="row intro">
+        <section id="intro" class="row intro">
             <!-- intro -->
             <div class="col s7">
                 <h1 class="center">Intro</h1>
@@ -53,7 +55,7 @@
             <div class="col s5 center pic-wrapper">
                 <img src="assets/img/img01.jpg" class="responsive-img profile-img" width="200" height="200" alt="">
             </div>
-        </div>
+        </section>
         <br>
 
         <section id="portfolio">
@@ -64,7 +66,7 @@
         </section>
         <br>
 
-        <div class="row skills">
+        <section id="skills" class="row skills">
             <!-- skills and learning at the moment-->
             <div class="col s12 center">
                 <h2>Skills</h2>
@@ -81,39 +83,39 @@
                 <img src="https://img.shields.io/badge/JavaScript-%23000000?logo=javascript">
 
             </div>
-        </div>
+        </section>
         <br>
-        <div class="hobbies">
-            <!-- about: education, hobbies, library and useful resourses -->
-            <!-- <div class="col s12"> -->
-            <h2 class="center-align">Interest and Hobbies</h2>
 
+        <section id="interests" class="hobbies">
+            <!-- about: education, hobbies, library and useful resourses -->
+            <h2 class="center-align">Hobbies</h2>
+            <h3 class="center-align">Library</h3>
+
+            <div class="library-container">
+                <div id="library"></div>
+            </div>
+            <h3 class="center-align">Running</h3>
             <div id="img-gallery"></div>
-            <!-- </div> -->
-        </div>
+        </section>
     </main>
 
     <footer class="page-footer">
-        <!-- email -->
-        <!-- social media: github and linkedin -->
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Email</h5>
-                    <p class="grey-text text-lighten-4">yelkaterina@gmail.com</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                <div class="col s12 center">
                     <ul class="social-links">
-                        <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                        <li><a class="white-text footer-link" href="#!"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </li>
+                        <li><a class="white-text footer-link" href="#!"><i class="fab fa-github fa-lg"></i></a></li>
                     </ul>
+                    <br>
+                    <p class="white-text">email: yelkaterina@gmail.com</p>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container center">
-                © 2014 Copyright Text
+                <p class="white-text">© <span id="year"></span> Katerina Elistratova</p>
             </div>
         </div>
     </footer>
