@@ -156,14 +156,10 @@ figcaption a {
     padding-bottom: 1.5rem;
 }
 
-.book-img {
-    border-radius: 5px;
-}
-
 .img-thumbnail {
     width: 250px;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease-out;
 }
@@ -171,7 +167,7 @@ figcaption a {
 .img-thumbnail:hover {
     transform: scale(1.025);
     box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.5);
-
+    
 }
 
 #img-gallery {
@@ -188,14 +184,20 @@ figcaption a {
     position: relative;
 }
 
+
+/* -------------------------------- Library */
 .library-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     max-width: 90vw;
-    overflow-y: scroll;
+    overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+}
+
+.book-img {
+    border-radius: 5px;
 }
 
 /* horizontal scroll */
@@ -214,7 +216,6 @@ figcaption a {
 .library-container::-webkit-scrollbar-thumb {
     background: hsl(var(--sea-blue));
     border-radius: 100vw;
-    /* border: .1em solid #fff; */
 
 }
 

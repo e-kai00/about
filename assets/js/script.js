@@ -10,17 +10,12 @@ function initMaterialize() {
 }
 
 // fancybox
-function initFancybox() {
-    Fancybox.bind('[data-fancybox="gallery"]', {
-        Toolbar: {
-            display: {
-              left: ['close'],
-              middle: [],
-              right: [],
-            },
-          },
-      });
-}
+// function initFancybox() {
+//     Fancybox.bind('[data-fancybox="gallery"]', {
+//         loop: true,
+//         protect: true,
+//       });
+// }
 
 // current year for Copyright
 function getYear() {
@@ -35,6 +30,12 @@ function getYear() {
 
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
-    initFancybox()
+    // initFancybox()
+    Fancybox.bind('[data-fancybox]', {
+        Images: {
+            protected: true
+        },   
+      }); 
     getYear()
+    
 })

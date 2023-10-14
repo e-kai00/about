@@ -28,8 +28,8 @@ let photoThumb = "";
 photoFileNames.map((fileName) => {
     const imgSrc = imgFolder + fileName[0];
     const thumbSrc = imgFolderThumb + fileName[1]
-    photo += `<figure>
-    <a href="${imgSrc}" data-fancybox="gallery" title="">
+    photo += `<figure>   
+    <a href="${imgSrc}" data-fancybox title="">
         <img src="${thumbSrc}" alt="" class="img-thumbnail"/>
         <p class="gallery-text">click to enlarge</p>
     </a>
@@ -48,7 +48,7 @@ let book = "";
 bookFileNames.map((fileName) => {
     const imgSrc = imgFolderBooks + fileName;
     book += `<figure>
-    <a href="${imgSrc}" data-fancybox="gallery-1" title="">
+    <a href="${imgSrc}" data-fancybox title="">
     <img src="${imgSrc}" alt="" width="150" height="200" class="book-img"/>
     <p class="gallery-text">click to enlarge</p>
     </a>
