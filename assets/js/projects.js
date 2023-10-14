@@ -69,7 +69,9 @@ const badges = {
 let li_project = "";
 
 projects.map((project) => {
-    li_project += `<li><figure><h3 class="project-title">${project.title}</h3><img src="assets/img/projects/${project.image}.png" width="300" height="300" class="portfolio-img"><figcaption><ul class="container-badges center-align">`;
+    li_project += `<li><figure><h3 class="project-title">${project.title}</h3>
+        <img src="assets/img/projects/${project.image}.png" width="300" height="300" class="portfolio-img">
+        <figcaption><ul class="container-badges center-align">`;
         
     if (project.tools) {
         project.tools.forEach((tool) => {
@@ -89,7 +91,7 @@ projects.map((project) => {
     li_project += `</figcaption></figure></li>`
 });
 
-// add the <li> items to the main <ul>
+// add the <li> items to the <ul>
 let ul_project = `<ul class="project-list">${li_project}</ul>`
 
 // append <ul> to portfolio section

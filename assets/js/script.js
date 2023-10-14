@@ -31,11 +31,24 @@ function getYear() {
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
     // initFancybox()
-    Fancybox.bind('[data-fancybox]', {
-        Images: {
-            protected: true
-        },   
-      }); 
+    // Fancybox.bind('[data-fancybox="photo-gallery"]', {
+    //     Images: {
+    //         protected: true
+    //     },   
+    //   }); 
+
+    const container = document.getElementById("myCarousel");
+    //   const options = { Dots: false };
+    const options = {
+        Thumbs: {
+          type: "classic",
+        },
+        Dots: false 
+      };
+
+      new Carousel(container, options, { Thumbs });
+    
+
     getYear()
     
 })

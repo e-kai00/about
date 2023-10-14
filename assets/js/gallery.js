@@ -1,9 +1,14 @@
 
 const photoFileNames = [
-    ["10k.jpg", "10k-thumb.jpg"],
-    ["10k(1).jpg", "10k(1)-thumb.jpg"],
-    ["die-heard.jpg", "die-heard-thumb.jpg"],
-    ["dragobrat.jpg", "dragobrat-thumb.jpg"],
+    ["frauenlauf.jpg", "frauenlauf-thumb.jpg", "Rostocker Frauenlauf"],
+    ["citylauf.jpg", "citylauf-thumb.jpg", "Rostocker Citylauf"],
+    ["trail1.jpg", "trail1-thumb.jpg", "Chornohora Sky Race"],    
+    ["10k(1).jpg", "10k(1)-thumb.jpg", "Dnipro 10k"],
+    ["10k.jpg", "10k-thumb.jpg", "Dnipro 10k"],
+    ["hm.jpg", "hm-thumb.jpg", "Kyiv Half-marathon"],
+    ["die-hard.jpg", "die-hard-thumb.jpg", "Die Hard Community"],
+    ["mile1.jpg", "mile1-thumb.jpg", "Battle Mile"],     
+    ["kmrc.jpg", "kmrc-thumb.jpg", "KMRC Club Cup"],    
     
 ]
 
@@ -28,16 +33,18 @@ let photoThumb = "";
 photoFileNames.map((fileName) => {
     const imgSrc = imgFolder + fileName[0];
     const thumbSrc = imgFolderThumb + fileName[1]
-    photo += `<figure>   
-    <a href="${imgSrc}" data-fancybox title="">
-        <img src="${thumbSrc}" alt="" class="img-thumbnail"/>
-        <p class="gallery-text">click to enlarge</p>
-    </a>
-    </figure>`
-    
+    const caption = fileName[2]
+    // photo += `<figure>   
+    // <a href="${imgSrc}" data-fancybox="photo-gallery" title="">
+    //     <img src="${thumbSrc}" alt="" class="img-thumbnail"/>
+    //     <p class="gallery-text">${caption}</p>
+    // </a>
+    // </figure>`
+    photo += `<div class="f-carousel__slide" data-thumb-src="${thumbSrc}"><img data-lazy-src="${imgSrc}" alt="" class="img-size"/></div>`
 })
 
-let imageGallery = document.getElementById('img-gallery');
+let imageGallery = document.getElementById('myCarousel');
+// let imageGallery = document.getElementById('img-gallery');
 imageGallery.innerHTML += photo
 
 

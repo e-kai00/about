@@ -77,7 +77,8 @@ nav ul a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-gap: 1em;
-    align-items: end;
+    align-items: start;
+    /* align-items: end; */
     justify-items: center;
 }
 
@@ -94,7 +95,7 @@ figure img {
     transition: filter 0.3s;
 }
 
-figure:hover img {
+figure:hover img:not(figcaption img) {
     filter: brightness(30%);
 }
 
@@ -135,6 +136,10 @@ figure:hover .project-title::after {
 figcaption a {
     margin: 12px 5px 5px;
 } 
+
+/* .container-badges {
+    height: max-content;
+} */
 
 .container-badges li {
     display: inline;
@@ -184,6 +189,23 @@ figcaption a {
     position: relative;
 }
 
+/* Fancyapps */
+#myCarousel {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  #myCarousel .f-carousel__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.img-size {
+    width: 640px; /* Your desired width */
+    height: 480px; /* Your desired height */
+    object-fit: cover;
+}
 
 /* -------------------------------- Library */
 .library-container {
