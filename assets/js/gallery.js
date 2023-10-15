@@ -8,8 +8,7 @@ const photoFileNames = [
     ["hm.jpg", "hm-thumb.jpg", "Kyiv Half-marathon"],
     ["die-hard.jpg", "die-hard-thumb.jpg", "Die Hard Community"],
     ["mile1.jpg", "mile1-thumb.jpg", "Battle Mile"],     
-    ["kmrc.jpg", "kmrc-thumb.jpg", "KMRC Club Cup"],    
-    
+    ["kmrc.jpg", "kmrc-thumb.jpg", "KMRC Club Cup"],        
 ]
 
 const bookFileNames = [
@@ -20,8 +19,7 @@ const bookFileNames = [
     "book5.jpg",
     "book6.jpg",
     "book7.jpg",
-    "book8.jpg",
-    
+    "book8.jpg",    
 ]
 
 // photo gallery
@@ -33,18 +31,11 @@ let photoThumb = "";
 photoFileNames.map((fileName) => {
     const imgSrc = imgFolder + fileName[0];
     const thumbSrc = imgFolderThumb + fileName[1]
-    const caption = fileName[2]
-    // photo += `<figure>   
-    // <a href="${imgSrc}" data-fancybox="photo-gallery" title="">
-    //     <img src="${thumbSrc}" alt="" class="img-thumbnail"/>
-    //     <p class="gallery-text">${caption}</p>
-    // </a>
-    // </figure>`
+
     photo += `<div class="f-carousel__slide" data-thumb-src="${thumbSrc}"><img data-lazy-src="${imgSrc}" alt="" class="img-size"/></div>`
 })
 
 let imageGallery = document.getElementById('myCarousel');
-// let imageGallery = document.getElementById('img-gallery');
 imageGallery.innerHTML += photo
 
 
@@ -56,8 +47,7 @@ bookFileNames.map((fileName) => {
     const imgSrc = imgFolderBooks + fileName;
     book += `<figure>
     <a href="${imgSrc}" data-fancybox title="">
-    <img src="${imgSrc}" alt="" width="150" height="200" class="book-img"/>
-    <p class="gallery-text">click to enlarge</p>
+    <img src="${imgSrc}" alt="" width="150" height="200" class="book-img"/>    
     </a>
     </figure>`
     

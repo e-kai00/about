@@ -83,10 +83,10 @@ projects.map((project) => {
     }
     li_project += `</ul>`
     if (project.repo) {
-        li_project += `<div class="center"><a href="${project.repo}" class="btn-small project-link" rel="noopener" target="_blank">Repo <i class="fa-brands fa-github"></i></a>`;
+        li_project += `<div class="center"><a href="${project.repo}" class="project-link" rel="noopener" target="_blank">Repo <i class="fa-brands fa-github"></i></a>`;
     }
     if (project.website) {
-        li_project += `<a href="${project.website}" class="btn-small project-link" rel="noopener" target="_blank">Link <i class="fas fa-link"></i></a></div>`;
+        li_project += `<a href="${project.website}" class="project-link" rel="noopener" target="_blank">Link <i class="fas fa-link"></i></a></div>`;
     }
     li_project += `</figcaption></figure></li>`
 });

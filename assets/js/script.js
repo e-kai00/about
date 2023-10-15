@@ -1,4 +1,3 @@
-
 // materialize
 function initMaterialize() {
     var elems = document.querySelectorAll('.sidenav');
@@ -9,13 +8,18 @@ function initMaterialize() {
     });
 }
 
-// fancybox
-// function initFancybox() {
-//     Fancybox.bind('[data-fancybox="gallery"]', {
-//         loop: true,
-//         protect: true,
-//       });
-// }
+// Fancyapp carousel
+function initCarousel() {
+    const container = document.getElementById("myCarousel");
+    const options = {
+        Thumbs: {
+            type: "modern",
+        },        
+        Dots: false 
+    };
+    
+    new Carousel(container, options, { Thumbs });
+}    
 
 // current year for Copyright
 function getYear() {
@@ -28,27 +32,10 @@ function getYear() {
     }
 }
 
+
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
-    // initFancybox()
-    // Fancybox.bind('[data-fancybox="photo-gallery"]', {
-    //     Images: {
-    //         protected: true
-    //     },   
-    //   }); 
-
-    const container = document.getElementById("myCarousel");
-    //   const options = { Dots: false };
-    const options = {
-        Thumbs: {
-          type: "classic",
-        },
-        Dots: false 
-      };
-
-      new Carousel(container, options, { Thumbs });
-    
-
+    initCarousel()
     getYear()
     
 })
