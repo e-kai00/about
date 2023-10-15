@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Katerina</title>
+    <title>Ekaterina Elistratova</title>
 </head>
 
 <body>
+    <!-- navbar -->
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
@@ -22,9 +23,9 @@
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="#intro">Home</a></li>
                     <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="collapsible.html">Skills</a></li>
-                    <li><a href="sass.html">About</a></li>
-                    <li><a href="collapsible.html">Contacts</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">About</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,10 +33,11 @@
 
     <!-- mobile navbar -->
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">About</a></li>
+        <li><a href="#contact">Contacts</a></li>        
     </ul>
 
     <main>
@@ -53,56 +55,61 @@
                 </p>
             </div>
             <div class="col s5 center pic-wrapper">
-                <img src="assets/img/img01.jpg" class="responsive-img profile-img" width="200" height="200" alt="">
+                <img src="assets/img/katerina.jpg" class="responsive-img profile-img" width="300" height="300" alt="">
             </div>
         </section>
         <br>
 
         <section id="portfolio">
             <!-- projects-->
-            <h2 class="center-align">Projects</h2>
-            <p class="center-align">Short text to introduce</p>
-
+            <h2 class="section-title section-portfolio">Projects</h2>
+            <p class="center-align section-subtitle">Here are a few of my projects that I've done so far.</p>
         </section>
         <br>
 
         <section id="skills" class="row skills">
             <!-- skills and learning at the moment-->
-            <div class="col s12 center">
-                <h2>Skills</h2>
-                <p>Technologies: HTML5, CSS3, JavaScript, Python</p>
-                <p>Frameworks/ Libraries: Django, Flask, jQuery, Pandas, Bootstrap, Materialize</p>
-                <p>Databases: MySQL, PostgreSQL</p>
-                <p>Paas: Heroku</p>
-                <p>Version Control/ IDE: Git, GitHub, GitPod, VS Code</p>
-                <p>Other : Agile development</p>                
+            <div class="col s12 ">
+                <h2 class="section-title section-skills">Skills</h2>
+                <div class="center">
+                <p><span class="skills-txt">Technologies</span>: HTML5, CSS3, JavaScript, Python</p>
+                <p><span class="skills-txt">Frameworks</span>/ <span class="skills-txt">Libraries</span>: Django, Flask, jQuery, Pandas, Express.js, Mongoose, Postman, Bootstrap, Materialize</p>
+                <p><span class="skills-txt">Databases</span>: MySQL, PostgreSQL, MongoDB</p>
+                <p><span class="skills-txt">Paas</span>: Heroku</p>
+                <p><span class="skills-txt">Version Control</span>/ <span class="skills-txt">IDE</span>: Git, GitHub, GitPod, VS Code</p>
+                <p><span class="skills-txt">Other</span>: Agile development</p> 
+                </div>               
             </div>
         </section>
         <br>
 
         <section id="interests" class="hobbies">
-            <!-- about: education, hobbies, library and useful resourses -->
-            <h2 class="center-align">Hobbies</h2>
-            <h3 class="center-align">Library</h3>
-            <p class="center-align">Short text here</p>
+            <h2 class="section-title section-hobbies">Hobbies &amp Interests</h2>
+            <!-- <h3 class="center-align">Library</h3> -->
+            <p class="center-align hobby-txt">I personally do not read many books, but I read the same books many times.
+                Here is a small selection of my favourite books, which I believe makes us better humans and better 
+                citizens of this world, so I believe they are worth reading and sharing.
+                (These are mostly screens from my Audible libraby)</p>
 
             <div class="library-container">
                 <div id="library"></div>
             </div>
-            <h3 class="center-align">Running</h3>
-            <p class="center-align">Short text here</p>
+            <!-- <h3 class="center-align">Running</h3> -->
+            <p class="center-align hobby-txt">I'm an amatur runner. I began running at the age of 37. Through training and participating 
+                in running events, I've made many lasting friendships and gathered countless cherished moments. I feel really lucky 
+                to have decided one day to lace up my running shoes. Here are some memorable highlights from my running experiences.</p>
             <div class="f-carousel" id="myCarousel"></div>
         </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col s12 center">
                     <ul class="social-links">
-                        <li><a class="white-text footer-link" href="#!"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <li><a class="white-text footer-link" href="https://www.linkedin.com/in/katerina-e-118b27267/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
                         </li>
-                        <li><a class="white-text footer-link" href="#!"><i class="fab fa-github fa-lg"></i></a></li>
+                        <li><a class="white-text footer-link" href="https://github.com/e-kai00" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
                     </ul>
                     <br>
                     <p class="white-text"><i class="fa-regular fa-envelope fa-lg email-icon"></i> yelkaterina@gmail.com</p>
@@ -111,7 +118,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container center">
-                <p class="white-text">© <span id="year"></span></p>
+                <p class="white-text">© <span id="year"></span> Ekaterina Elistratova</p>
             </div>
         </div>
     </footer>

@@ -69,8 +69,8 @@ const badges = {
 let li_project = "";
 
 projects.map((project) => {
-    li_project += `<li><figure><h3 class="project-title">${project.title}</h3>
-        <img src="assets/img/projects/${project.image}.png" width="300" height="300" class="portfolio-img">
+    li_project += `<li><figure class="center"><div class="img-container"><h3 class="project-title left">${project.title}</h3>
+        <img src="assets/img/projects/${project.image}.png" width="300" height="300" class="portfolio-img"></div>
         <figcaption><ul class="container-badges center-align">`;
         
     if (project.tools) {
