@@ -29,7 +29,7 @@ let photo = "";
 let photoThumb = "";
 
 photoFileNames.map((fileName) => {
-    const imgSrc = imgFolder + fileName[0];
+    const imgSrc = imgFolder + fileName[0].toLowerCase();
     const thumbSrc = imgFolderThumb + fileName[1]
 
     photo += `<div class="f-carousel__slide" data-thumb-src="${thumbSrc}"><img data-lazy-src="${imgSrc}" alt="" class="img-size"/></div>`
