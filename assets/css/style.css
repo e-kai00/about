@@ -285,8 +285,7 @@ figcaption a {
 
 /* horizontal scroll */
 .library-container::-webkit-scrollbar {
-    height: .7em;
-    
+    height: .7em;    
 }
 
 .library-container::-webkit-scrollbar-track {
@@ -306,10 +305,10 @@ figcaption a {
 
 }
 
-/* scroll for Firefox */
-@supports(scrollbar-color: red blue) {
+/* scrollbar for Firefox */
+@supports(scrollbar-color: hsl(var(--sea-blue)) hsl(var(--white))) {
     * {
-        scrollbar-color: red blue;
+        scrollbar-color: hsl(var(--sea-blue)) hsl(var(--white));
         scrollbar-width: thin;
     }
 }
