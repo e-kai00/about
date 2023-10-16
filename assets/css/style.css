@@ -5,14 +5,10 @@
     --blue: 182, 77%, 65%;
     --light-blue: 185, 46%, 95%;   
     --sea-blue: 184, 47%, 54%;
-    --bronze: 31, 100%, 70%;
     --white: 0, 0%, 100%;
     --yellow: 40, 100%, 55%;
     --dark-yellow: 40, 100%, 45%;
-    --grey: 185, 14%, 34%;
-    /* --test: 11, 87%, 79%; */
-    --test: 28, 100%, 86%;
-    
+    --grey: 185, 14%, 34%;    
 }
 
 * {
@@ -45,14 +41,11 @@ nav {
 }
 
 nav ul a {
-    /* color: #4a6163; */
-    /* color: #fff; */
     font-size: 1.1rem;
     text-transform: uppercase;
 }
 
 nav ul a:hover {
-    /* background-color: hsl(var(--yellow)); */
    text-decoration: underline;
    text-decoration-thickness: 5px;
    text-decoration-style: solid;
@@ -102,7 +95,6 @@ nav ul a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 5px 5px 5px hsl(var(--grey));
-
 }
 
 .project-list {
@@ -126,7 +118,7 @@ nav ul a:hover {
 }
 
 .project-link:hover {
-    background-color: hsl(var(--dark-yellow));    
+    background-color: hsl(var(--yellow));    
 }
 
 figure img {
@@ -185,19 +177,18 @@ figcaption a {
 
 .container-badges li {
     display: inline;
-    margin: .2em;
-    
+    margin: .2em;    
 }
+
+
 /* -------------------------------- Skills */
 .skills-txt {
-    /* font-size: 1.1rem; */
     font-weight: bold;
     background-image: linear-gradient(80deg, hsl(var(--sea-blue)), hsl(var(--yellow)));
     background-size: 100% 3px;
     background-repeat: no-repeat;
     background-position: left bottom;
 }
-
 
 
 /* -------------------------------- Hobbies */
@@ -224,15 +215,13 @@ figcaption a {
 .img-thumbnail {
     width: 250px;
     height: auto;
-    /* border-radius: 5px; */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease-out;
 }
 
 .img-thumbnail:hover {
     transform: scale(1.025);
-    box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.5);    
 }
 
 #img-gallery {
@@ -267,6 +256,7 @@ figcaption a {
     object-fit: cover;
 }
 
+
 /* -------------------------------- Library */
 .library-container {
     display: flex;
@@ -290,7 +280,6 @@ figcaption a {
 
 .library-container::-webkit-scrollbar-track {
     background: hsl(var(--white));
-    /* background: hsla(210, 38%, 35%, 0.3); */
     border: 1px solid hsla(var(--grey), 0.5);
     border-radius: 100vw;
     margin-block: .5em;
@@ -298,11 +287,8 @@ figcaption a {
 }
 
 .library-container::-webkit-scrollbar-thumb {
-    /* background: hsla(var(--grey), 0.7); */
     background: hsl(var(--sea-blue));
     border-radius: 100vw;
-    /* border: .25em solid hsl(var(--grey)); */
-
 }
 
 /* scrollbar for Firefox */
@@ -323,6 +309,7 @@ figcaption a {
     max-width: 250px;
     height: auto;
 }
+
 
 /* -------------------------------- Footer */
 .social-links > li {
