@@ -1,7 +1,7 @@
-// materialize
+// Materialize
 function initMaterialize() {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, {
+    M.Sidenav.init(elems, {
         edge: "left",
         draggable: true,
         preventScrolling: true
@@ -24,8 +24,7 @@ function initCarousel() {
 // Fancybox 
 function initFancybox() {
     Fancybox.bind('[data-fancybox]', {
-        // Your custom options
-        
+        // custom options        
       });      
 }
 
