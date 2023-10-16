@@ -13,10 +13,10 @@ const photoFileNames = [
 
 const bookFileNames = [
     "book1.jpg",
+    "book5.jpg",
     "book2.jpg",
     "book3.jpg",
     "book4.jpg",
-    "book5.jpg",
     "book6.jpg",
     "book7.jpg",
     "book8.jpg",    
@@ -39,14 +39,14 @@ let imageGallery = document.getElementById('myCarousel');
 imageGallery.innerHTML += photo
 
 
-// library gallery
+// books gallery
 let imgFolderBooks = "assets/img/books/";
 let book = "";
 
 bookFileNames.map((fileName) => {
     const imgSrc = imgFolderBooks + fileName;
     book += `<figure>
-    <a href="${imgSrc}" data-fancybox title="">
+    <a href="${imgSrc}" data-fancybox>
     <img src="${imgSrc}" alt="" width="150" height="200" class="book-img"/>    
     </a>
     </figure>`

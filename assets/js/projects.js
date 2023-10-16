@@ -8,18 +8,18 @@ let projects = [
         tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "Python", "Django", "ElephantSQL", "Heroku", "Stripe API", "AWS"]
     },
     {
-        title: "Expense Tracker",
+        title: "Expense tracker app",
         image: "expense-tracker",
         repo: "https://github.com/e-kai00/expense-tracker",
         website: "https://kai00-expense-tracker.herokuapp.com/accounts/login/?next=/",
         tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql"]
     },
     {
-        title: "Python Project",
+        title: "Survey results analysis",
         image: "python-project",
         repo: "https://github.com/e-kai00/data-analysis",
         website: "https://survey-results-analysis.herokuapp.com/",
-        tools: ["HTML", "CSS", "Python", "Pandas"]
+        tools: ["Python", "Pandas"]
     },
     {
         title: "Running pace calculator",
@@ -29,14 +29,14 @@ let projects = [
         tools: ["HTML", "CSS", "JavaScript"]
     },
     {
-        title: "Bootstap Project",
+        title: "Company profile website",
         image: "company-profile",
         repo: "https://github.com/e-kai00/seabreeze-store",
         website: "https://e-kai00.github.io/seabreeze-store/",
         tools: ["HTML", "CSS", "Bootstrap"]
     },
     {
-        title: "Yoga Studio",
+        title: "Yoga studio website",
         image: "yoga-studio",
         repo: "https://github.com/e-kai00/yoga-studio",
         website: "https://e-kai00.github.io/yoga-studio/",

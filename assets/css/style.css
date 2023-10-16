@@ -70,6 +70,11 @@ nav ul a:hover {
     padding-left: .3em;
 }
 
+.external-links {
+    color: hsl(var(--grey));
+    font-weight: 600;
+    text-decoration: none;
+}
 
 /* -------------------------------- Intro */
 .profile-img {
@@ -207,6 +212,11 @@ figcaption a {
     padding: 1em 0.5em;
 }
 
+.hobby-txt-intro {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1.7px hsl(var(--grey));
+}
+
 .row {
     padding-bottom: 1.5rem;
 }
@@ -335,3 +345,16 @@ figcaption a {
 }
 
 
+/* -------------------------------- media query */
+
+@media only screen and (max-width: 992px) {
+    .hobby-txt {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        flex-direction: column-reverse;
+    }
+}

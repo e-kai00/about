@@ -19,7 +19,15 @@ function initCarousel() {
     };
     
     new Carousel(container, options, { Thumbs });
-}    
+}   
+
+// Fancybox 
+function initFancybox() {
+    Fancybox.bind('[data-fancybox]', {
+        // Your custom options
+        
+      });      
+}
 
 // current year for Copyright
 function getYear() {
@@ -36,6 +44,7 @@ function getYear() {
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
     initCarousel()
+    initFancybox()
     getYear()
     
 })
