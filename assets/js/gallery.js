@@ -1,7 +1,6 @@
 
 const photoFileNames = [
     ["frauenlauf.jpg", "frauenlauf-thumb.jpg", "Rostocker Frauenlauf"],
-    ["citylauf.jpg", "citylauf-thumb.jpg", "Rostocker Citylauf"],
     ["trail1.jpg", "trail1-thumb.jpg", "Chornohora Sky Race"],    
     ["10k(1).jpg", "10k(1)-thumb.jpg", "Dnipro 10k"],
     ["10k.jpg", "10k-thumb.jpg", "Dnipro 10k"],
