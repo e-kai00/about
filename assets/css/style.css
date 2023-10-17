@@ -9,6 +9,7 @@
     --yellow: 40, 100%, 55%;
     --dark-yellow: 40, 100%, 45%;
     --grey: 185, 14%, 34%;    
+    --beige: 28, 100%, 86%;
 }
 
 * {
@@ -199,9 +200,9 @@ figcaption a {
 }
 
 
-/* -------------------------------- Hobbies */
+/* -------------------------------- Hobbies/ interests */
 .hobbies {
-    background-image: linear-gradient(182deg, hsl(var(--test)), hsl(var(--white)));
+    background-image: linear-gradient(182deg, hsl(var(--beige)), hsl(var(--white)));
     padding: 15px 0;
 }
 
