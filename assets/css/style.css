@@ -63,10 +63,18 @@ nav ul a:hover {
     padding-left: .3em;
 }
 
+.section-txt {
+    padding-left: 1.3rem;
+}
+
 .external-links {
     color: hsl(var(--grey));
     font-weight: 600;
     text-decoration: none;
+}
+
+.external-links:hover {
+    text-shadow: 1px 1px 1px hsl(var(--sea-blue));
 }
 
 /* -------------------------------- Intro */
@@ -342,5 +350,10 @@ figcaption a {
 @media only screen and (max-width: 600px) {
     .intro {
         flex-direction: column-reverse;
+    }
+
+    .section-txt {
+        text-align: center;
+        padding-left: 0;
     }
 }
