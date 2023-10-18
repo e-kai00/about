@@ -31,7 +31,7 @@ photoFileNames.map((fileName) => {
     const imgSrc = imgFolder + fileName[0].toLowerCase();
     const thumbSrc = imgFolderThumb + fileName[1]
 
-    photo += `<div class="f-carousel__slide" data-thumb-src="${thumbSrc}"><img data-lazy-src="${imgSrc}" alt="" class="img-size"/></div>`
+    photo += `<div class="f-carousel__slide" data-thumb-src="${thumbSrc}"><img data-lazy-src="${imgSrc}" alt="${fileName[2]}" class="img-size"/></div>`
 })
 
 let imageGallery = document.getElementById('myCarousel');
@@ -46,7 +46,7 @@ bookFileNames.map((fileName) => {
     const imgSrc = imgFolderBooks + fileName;
     book += `<figure>
     <a href="${imgSrc}" data-fancybox>
-    <img src="${imgSrc}" alt="" width="150" height="200" class="book-img"/>    
+    <img src="${imgSrc}" alt="${fileName}" width="150" height="200" class="book-img"/>    
     </a>
     </figure>`
     
