@@ -1,6 +1,13 @@
 // projects
 let projects = [
     {
+        title: "Halloween Hackathon",
+        image: "hackoween",
+        repo: "https://github.com/e-kai00/hackoween",
+        website: "https://e-kai00.github.io/hackoween/",
+        tools: ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    },
+    {
         title: "Online Shop",
         image: "online-shop",
         repo: "https://github.com/e-kai00/gungnir-shop",
