@@ -13,15 +13,16 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     scroll-behavior: smooth;
     box-sizing: border-box;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 body {
     min-height: 100vh;
+    min-height: 100svh;
     font-family: 'Lato', sans-serif;
 }
 
@@ -94,10 +95,6 @@ nav ul a:hover {
 
 
 /* -------------------------------- Portfolio */
-#portfolio {
-    background-image: linear-gradient(4deg, hsl(var(--sea-blue)), hsl(var(--white)));
-    padding: 15px 0;
-}
 
 .portfolio-img {
     width: 300px;
@@ -191,6 +188,11 @@ figcaption a {
 
 
 /* -------------------------------- Skills */
+#skills {
+    background-image: linear-gradient(4deg, hsl(var(--sea-blue)), hsl(var(--white)));
+    padding: 15px 0;
+}
+
 .skills-txt {
     font-weight: bold;
     background-image: linear-gradient(80deg, hsl(var(--sea-blue)), hsl(var(--yellow)));
@@ -210,6 +212,8 @@ figcaption a {
     font-size: 1rem;
     width: 70%;
     padding: 1em 0.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hobby-txt-intro {
@@ -276,6 +280,8 @@ figcaption a {
     overflow-y: hidden;
     white-space: nowrap;
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book-img {
