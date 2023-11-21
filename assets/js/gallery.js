@@ -1,5 +1,6 @@
 
 const photoFileNames = [
+    ["berlin-21k.jpg", "berlin-21k-thumb.jpg", "Berlin SportScheck"],
     ["frauenlauf.jpg", "frauenlauf-thumb.jpg", "Rostocker Frauenlauf"],
     ["trail1.jpg", "trail1-thumb.jpg", "Chornohora Sky Race"],    
     ["10k(1).jpg", "10k(1)-thumb.jpg", "Dnipro 10k"],
