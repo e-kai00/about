@@ -99,7 +99,7 @@ projects.map((project) => {
 });
 
 // add the <li> items to the <ul>
-let ul_project = `<ul class="project-list">${li_project}</ul>`
+let ul_project = `<ul class="project-list">${li_project}</ul>`;
 
 // append <ul> to portfolio section
 let portfolio_section = document.getElementById("portfolio");
