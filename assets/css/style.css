@@ -44,7 +44,11 @@ nav {
 
 nav ul a {
     font-size: 1.1rem;
-    text-transform: uppercase;
+    text-transform: uppercase;    
+    text-decoration-color: transparent;
+    /* transition: text-decoration-color 0.4s ease */
+    transition: text-decoration 0.3s;
+    transition-timing-function: ease-out;
 }
 
 nav ul a:hover {
@@ -53,8 +57,7 @@ nav ul a:hover {
    text-decoration-style: solid;
    text-decoration-color: hsl(var(--yellow));
    text-underline-offset: .5em;
-   background-color: rgba(0,0,0,0);
-   
+   background-color: rgba(0,0,0,0);   
 }
 
 .section-title {
@@ -95,6 +98,10 @@ nav ul a:hover {
 
 
 /* -------------------------------- Portfolio */
+#portfolio {
+    background-image: linear-gradient(4deg, hsl(var(--sea-blue)), hsl(var(--white)));
+    padding: 15px 0;
+}
 
 .portfolio-img {
     width: 300px;
@@ -188,17 +195,16 @@ figcaption a {
 
 
 /* -------------------------------- Skills */
-#skills {
-    background-image: linear-gradient(4deg, hsl(var(--sea-blue)), hsl(var(--white)));
-    padding: 15px 0;
-}
-
 .skills-txt {
     font-weight: bold;
     background-image: linear-gradient(80deg, hsl(var(--sea-blue)), hsl(var(--yellow)));
     background-size: 100% 3px;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left bottom;    
+}
+
+.skills-wrapper p {
+    margin: 2px 0;
 }
 
 
