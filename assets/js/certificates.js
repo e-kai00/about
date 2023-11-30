@@ -1,6 +1,14 @@
 const certificates = [
     {
-        name: " The Complete Sass & SCSS Course",
+        name: "PHP for Beginners",
+        organization: "Udemy",
+        date: "Nov 2023",
+        url: "https://www.udemy.com/certificate/UC-bd13b2a5-b0a8-4d6f-87bf-529e084aa7a5/",
+        certification: "certificate of completion",
+        media: ""
+    },
+    {
+        name: "The Complete Sass & SCSS Course",
         organization: "Udemy",
         date: "Nov 2023",
         url: "https://www.udemy.com/certificate/UC-e93b6d1a-f1e1-49be-8d8d-22d4dc0538d1/",
