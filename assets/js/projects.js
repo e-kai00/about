@@ -84,7 +84,7 @@ projects.map((project) => {
         project.tools.forEach((tool) => {
             const badgeUrl = badges[tool.toLowerCase()]
             if (badgeUrl) {
-                li_project += `<li><img src="${badgeUrl}" alt="${tool}"></li>`
+                li_project += `<li><img src="${badgeUrl}" alt="${tool}" crossorigin="anonymous" loading="lazy"></li>`
             }
         })
     }

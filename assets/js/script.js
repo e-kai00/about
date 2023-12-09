@@ -8,6 +8,10 @@ function initMaterialize() {
     });
 }
 
+// Scroll behavior
+const navigationHeigh = document.getElementById('navbar').offsetHeight;
+document.documentElement.style.setProperty('--scroll-padding', `${navigationHeigh}px`);
+
 // Fancyapp carousel
 function initCarousel() {
     const container = document.getElementById("myCarousel");

@@ -1,0 +1,7 @@
+{
+    "livePreview.httpHeaders": {
+
+        "Accept-Ranges": "bytes",
+        "Cross-Origin-Resource-Policy": "cross-origin "
+    }
+}
