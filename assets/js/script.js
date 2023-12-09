@@ -26,11 +26,11 @@ function initCarousel() {
 }   
 
 // Fancybox 
-function initFancybox() {
-    Fancybox.bind('[data-fancybox]', {
-        // custom options        
-      });      
-}
+// function initFancybox() {
+//     Fancybox.bind('[data-fancybox]', {
+//         // custom options        
+//       });      
+// }
 
 // current year for Copyright
 function getYear() {
