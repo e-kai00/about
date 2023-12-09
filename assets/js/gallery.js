@@ -47,7 +47,7 @@ bookFileNames.map((fileName) => {
     const imgSrc = imgFolderBooks + fileName;
     book += `<figure>
     <a href="${imgSrc}" data-fancybox>
-    <img src="${imgSrc}" alt="${fileName}" width="150" height="200" class="book-img"/>    
+    <img src="${imgSrc}" alt="${fileName}" width="150" height="200" class="book-img" loading="lazy">    
     </a>
     </figure>`
     

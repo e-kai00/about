@@ -12,8 +12,9 @@
     --beige: 28, 100%, 86%;
 }
 
-* {
+html {
     scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 10em);
     box-sizing: border-box;
 }
 
@@ -94,6 +95,10 @@ nav ul a:hover {
 
 .certificate-links:hover {
     text-decoration: none;
+}
+
+.secondary-text {
+    font-size: .95rem;
 }
 
 

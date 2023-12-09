@@ -8,6 +8,10 @@ function initMaterialize() {
     });
 }
 
+// Scroll behavior
+const navigationHeigh = document.getElementById('navbar').offsetHeight;
+document.documentElement.style.setProperty('--scroll-padding', `${navigationHeigh}px`);
+
 // Fancyapp carousel
 function initCarousel() {
     const container = document.getElementById("myCarousel");
@@ -22,11 +26,11 @@ function initCarousel() {
 }   
 
 // Fancybox 
-function initFancybox() {
-    Fancybox.bind('[data-fancybox]', {
-        // custom options        
-      });      
-}
+// function initFancybox() {
+//     Fancybox.bind('[data-fancybox]', {
+//         // custom options        
+//       });      
+// }
 
 // current year for Copyright
 function getYear() {
@@ -43,7 +47,7 @@ function getYear() {
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
     initCarousel()
-    initFancybox()
+    // initFancybox()
     getYear()
     
 })
