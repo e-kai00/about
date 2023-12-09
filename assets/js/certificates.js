@@ -49,7 +49,7 @@ certificates.map((cert) => {
        ${cert.name}</a>, <span class="secondary-text">${cert.certification}</span></li>`
 });
 
-let ul_cert = `<ul>${li_cert}</ul>`;
+let ul_cert = `<ul class="certificate-list">${li_cert}</ul>`;
 
 let certificate_section = document.getElementById("certificate");
 certificate_section.innerHTML += ul_cert;

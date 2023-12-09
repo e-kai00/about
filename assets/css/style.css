@@ -116,12 +116,32 @@ nav ul a:hover {
     display: flex;
 }
 
+.certificate-list {
+    padding-left: .5em !important;
+    padding-right: .5em;
+}
+
 
 /* -------------------------------- Portfolio */
 #portfolio {
     background-image: linear-gradient(4deg, hsl(var(--sea-blue)), hsl(var(--white)));
     padding: 15px 0;
 }
+
+
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 350ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+
+
 
 .portfolio-img {
     width: 300px;
@@ -393,7 +413,7 @@ figcaption a {
     }
 
     .section-txt {
-        text-align: center;
+        /* text-align: center; */
         padding-left: 0;
     }
 }
