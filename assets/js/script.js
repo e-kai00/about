@@ -47,7 +47,7 @@ function getYear() {
 document.addEventListener('DOMContentLoaded', function () {
     initMaterialize()
     initCarousel()
-    initFancybox()
+    // initFancybox()
     getYear()
     
 })
