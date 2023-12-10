@@ -76,7 +76,7 @@ const badges = {
 let li_project = "";
 
 projects.map((project) => {
-    li_project += `<li><figure class="center"><div class="img-container"><h3 class="project-title left">${project.title}</h3>
+    li_project += `<li><figure class="center fade-in"><div class="img-container"><h3 class="project-title left">${project.title}</h3>
         <img src="assets/img/projects/${project.image}.png" alt="${project.title}" width="300" height="300" class="portfolio-img" loading="lazy"></div>
         <figcaption><ul class="container-badges center-align">`;
         
