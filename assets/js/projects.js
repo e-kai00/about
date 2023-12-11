@@ -18,7 +18,7 @@ let projects = [
         title: "Expense tracker app",
         image: "expense-tracker",
         repo: "https://github.com/e-kai00/expense-tracker",
-        website: "https://kai00-expense-tracker.herokuapp.com/accounts/login/?next=/",
+        website: "https://kai00-expense-tracker.herokuapp.com/home",
         tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql"]
     },
     {
