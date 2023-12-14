@@ -1,12 +1,6 @@
 // projects
 let projects = [
-    {
-        title: "Halloween Hackathon",
-        image: "hackoween",
-        repo: "https://github.com/e-kai00/hackoween",
-        website: "https://e-kai00.github.io/hackoween/",
-        tools: ["HTML", "CSS", "Bootstrap", "JavaScript"]
-    },
+   
     {
         title: "Online Shop",
         image: "online-shop",
@@ -27,6 +21,13 @@ let projects = [
         repo: "https://github.com/e-kai00/data-analysis",
         website: "https://survey-results-analysis.herokuapp.com/",
         tools: ["Python", "Pandas"]
+    },
+    {
+        title: "Halloween Hackathon",
+        image: "hackoween",
+        repo: "https://github.com/e-kai00/hackoween",
+        website: "https://e-kai00.github.io/hackoween/",
+        tools: ["HTML", "CSS", "Bootstrap", "JavaScript"]
     },
     {
         title: "Running pace calculator",
