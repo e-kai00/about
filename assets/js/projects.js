@@ -23,6 +23,13 @@ let projects = [
         tools: ["Python", "Pandas"]
     },
     {
+        title: "Secret Santa Hackathon",
+        image: "hackathon-dec23",
+        repo: "https://github.com/e-kai00/Santas-Devs",
+        website: "https://e-kai00.github.io/Santas-Devs/",
+        tools: ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    },
+    {
         title: "Halloween Hackathon",
         image: "hackoween",
         repo: "https://github.com/e-kai00/hackoween",

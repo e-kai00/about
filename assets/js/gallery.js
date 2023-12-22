@@ -12,14 +12,16 @@ const photoFileNames = [
 ]
 
 const bookFileNames = [
+    "book14.jpg",
     "book1.jpg",
     "book5.jpg",
+    "book13.jpg",
     "book2.jpg",
     "book3.jpg",
     "book4.jpg",
     "book6.jpg",
     "book7.jpg",
-    "book8.jpg",    
+    "book12.jpg",
 ]
 
 // photo gallery
