@@ -1,17 +1,17 @@
 const certificates = [
     {
-        name: "PHP for Beginners",
-        organization: "Udemy",
-        date: "Nov 2023",
-        url: "https://www.udemy.com/certificate/UC-bd13b2a5-b0a8-4d6f-87bf-529e084aa7a5/",
-        certification: "certificate of completion",
+        name: "Diploma in Full Stack Software Development (E-commerce Applications)",
+        organization: "Code Institute",
+        date: "Aug 2023",
+        url: "https://www.credential.net/d37778f2-ddb2-4ea1-8923-e657dee45e76#gs.0ouxj7",
+        certification: "diploma",
         media: ""
     },
     {
-        name: "The Complete Sass & SCSS Course",
+        name: "NodeJS Tutorial and Projects Course",
         organization: "Udemy",
         date: "Nov 2023",
-        url: "https://www.udemy.com/certificate/UC-e93b6d1a-f1e1-49be-8d8d-22d4dc0538d1/",
+        url: "https://www.udemy.com/certificate/UC-fe695adb-37fa-4d6b-91fe-6286ffee6c1a/",
         certification: "certificate of completion",
         media: ""
     },
@@ -24,21 +24,21 @@ const certificates = [
         media: ""
     },
     {
-        name: "NodeJS Tutorial and Projects Course",
+        name: "The Complete Sass & SCSS Course",
         organization: "Udemy",
         date: "Nov 2023",
-        url: "https://www.udemy.com/certificate/UC-fe695adb-37fa-4d6b-91fe-6286ffee6c1a/",
+        url: "https://www.udemy.com/certificate/UC-e93b6d1a-f1e1-49be-8d8d-22d4dc0538d1/",
         certification: "certificate of completion",
         media: ""
     },
     {
-        name: "Diploma in Full Stack Software Development (E-commerce Applications)",
-        organization: "Code Institute",
-        date: "Aug 2023",
-        url: "https://www.credential.net/d37778f2-ddb2-4ea1-8923-e657dee45e76#gs.0ouxj7",
-        certification: "diploma",
+        name: "PHP for Beginners",
+        organization: "Udemy",
+        date: "Nov 2023",
+        url: "https://www.udemy.com/certificate/UC-bd13b2a5-b0a8-4d6f-87bf-529e084aa7a5/",
+        certification: "certificate of completion",
         media: ""
-    }
+    }   
 ]
 
 
