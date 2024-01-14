@@ -29,6 +29,15 @@ let projects = [
         website: "https://e-kai00.github.io/Santas-Devs/",
         tools: ["HTML", "CSS", "Bootstrap", "JavaScript"]
     },
+
+    {
+        title: "Loan Calculator",
+        image: "loan-calculator",
+        repo: "https://github.com/e-kai00/loan-calculator",
+        website: "https://e-kai00.github.io/loan-calculator/",
+        tools: ["HTML", "Sass", "JavaScript"]
+    },
+
     {
         title: "Halloween Hackathon",
         image: "hackoween",
@@ -77,6 +86,7 @@ const badges = {
     heroku: 'https://img.shields.io/badge/Heroku-%23ffffff?logo=heroku&logoColor=%23430098',    
     postgres: 'https://img.shields.io/badge/PostgreSQL-%23ffffff?logo=postgresql&logoColor=%234169E1',
     mongodb: 'https://img.shields.io/badge/MongoDB-%23ffffff?logo=mongodb&logoColor=%2347A248',
+    sass: 'https://img.shields.io/badge/Sass/SCSS-%23ffffff?logo=sass&logoColor=%CC6699',
 }
 
 
