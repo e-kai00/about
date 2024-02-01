@@ -13,7 +13,14 @@ let projects = [
         image: "expense-tracker",
         repo: "https://github.com/e-kai00/expense-tracker",
         website: "https://kai00-expense-tracker.herokuapp.com/home",
-        tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql"]
+        tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql", "Heroku"]
+    },
+    {
+        title: "Budget Busters Hackathon",
+        image: "broker-buddy",
+        repo: "https://github.com/e-kai00/finFlare",
+        website: "https://fin-flare-8f9d374a56d6.herokuapp.com/",
+        tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "Python", "Django", "ElephantSQL", "Heroku", "AWS"]
     },
     {
         title: "Survey results analysis",
@@ -21,7 +28,7 @@ let projects = [
         repo: "https://github.com/e-kai00/data-analysis",
         website: "https://survey-results-analysis.herokuapp.com/",
         tools: ["Python", "Pandas"]
-    },
+    },   
     {
         title: "Secret Santa Hackathon",
         image: "hackathon-dec23",
