@@ -2,6 +2,13 @@
 let projects = [
    
     {
+        title: "Datonix",
+        image: "datonix",
+        // repo: "https://github.com/e-kai00/datonix",
+        website: "https://e-kai00.github.io/datonix/",
+        tools: ["HTML", "CSS", "Sass"]
+    },
+    {
         title: "Online Shop",
         image: "online-shop",
         repo: "https://github.com/e-kai00/gungnir-shop",
