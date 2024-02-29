@@ -4,7 +4,7 @@ let projects = [
     {
         title: "Datonix",
         image: "datonix",
-        // repo: "https://github.com/e-kai00/datonix",
+        repo: "https://github.com/e-kai00/datonix",
         website: "https://e-kai00.github.io/datonix/",
         tools: ["HTML", "CSS", "Sass"]
     },
