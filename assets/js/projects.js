@@ -9,18 +9,18 @@ let projects = [
         tools: ["HTML", "CSS", "Sass"]
     },
     {
+        title: "Landing page TW",
+        image: "terra-wealth",
+        repo: "https://github.com/e-kai00/terra-wealth",
+        website: "https://e-kai00.github.io/terra-wealth/",
+        tools: ["HTML", "CSS", "Sass"]
+    },
+    {
         title: "Online Shop",
         image: "online-shop",
         repo: "https://github.com/e-kai00/gungnir-shop",
         website: "https://gungnir-shop-d9723ee6b3ec.herokuapp.com/",
         tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "Python", "Django", "ElephantSQL", "Heroku", "Stripe API", "AWS"]
-    },
-    {
-        title: "Expense tracker app",
-        image: "expense-tracker",
-        repo: "https://github.com/e-kai00/expense-tracker",
-        website: "https://kai00-expense-tracker.herokuapp.com/home",
-        tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql", "Heroku"]
     },
     {
         title: "Budget Busters Hackathon",
@@ -29,6 +29,13 @@ let projects = [
         website: "https://fin-flare-8f9d374a56d6.herokuapp.com/",
         tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "Python", "Django", "ElephantSQL", "Heroku", "AWS"]
     },
+    {
+        title: "Expense tracker app",
+        image: "expense-tracker",
+        repo: "https://github.com/e-kai00/expense-tracker",
+        website: "https://kai00-expense-tracker.herokuapp.com/home",
+        tools: ["HTML", "CSS", "Materialize", "JavaScript", "jQuery", "Python", "Django", "postgresql", "Heroku"]
+    },    
     {
         title: "Survey results analysis",
         image: "python-project",
